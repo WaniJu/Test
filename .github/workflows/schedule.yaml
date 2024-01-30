@@ -3,6 +3,7 @@ name: daily-refresh
 on:
   schedule:
     - cron: '0/10 * * ? * * *'
+  workflow_dispatch:
 
 jobs:
   my-job:
