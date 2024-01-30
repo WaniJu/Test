@@ -17,8 +17,8 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "hazwani.jurimi@gmail.com"
+        git config --local user.name "WaniJu"
         git add .
         git commit -m "Update time [skip ci]"
         git push
